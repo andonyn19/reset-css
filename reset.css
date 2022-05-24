@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+h1 {
+  font-size: 5.6rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 3.8rem;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h5 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+}
